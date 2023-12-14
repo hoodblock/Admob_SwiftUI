@@ -1,0 +1,6 @@
+framework module Pods_Admob_SwiftUITests {
+  umbrella header "Pods-Admob_SwiftUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

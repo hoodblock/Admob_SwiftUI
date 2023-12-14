@@ -1,0 +1,51 @@
+{
+    
+    "ad_controller":
+    {
+        "enable_native":     true,
+        "enable_inter":      true,
+        "enable_banner":     false,
+    },
+  
+    "ad_detail":
+    {
+        
+        "value_ad":
+        [
+            {
+                "ad_id":                "ca-app-pub-3940256099942544/5575463023",
+                "ad_type":              "OPEN",
+                "ad_name":              "splash"
+            },
+            
+            {
+                "ad_id":                "ca-app-pub-3940256099942544/3986624511",
+                "ad_type":              "NATIVE",
+                "ad_name":              "native",
+                "ad_repeatRequest":     2
+            },
+            
+            {
+                "ad_id":                "ca-app-pub-3940256099942544/4411468910",
+                "ad_type":              "INTERSTITIAL",
+                "ad_name":              "inter"
+            },
+            
+            {
+                "ad_id":                "ca-app-pub-3940256099942544/2435281174",
+                "ad_type":              "BANNER",
+                "ad_name":              "banner",
+            },
+            
+            {
+                "ad_id":                "ca-app-pub-3940256099942544/1712485313",
+                "ad_type":              "REWARD",
+                "ad_name":              "reward",
+            }
+        ]
+        
+    
+        
+    }
+    
+}

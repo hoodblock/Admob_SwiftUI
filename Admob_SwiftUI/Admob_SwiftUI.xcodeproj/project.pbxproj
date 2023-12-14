@@ -1,0 +1,817 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DD14BA21C6B2EE0F01C26CE /* Pods_Admob_SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A20A0E275F41CCDAC713ED22 /* Pods_Admob_SwiftUI.framework */; };
+		8BC6198D572273B69ECA2345 /* Pods_Admob_SwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3654BD6AA8DBE2E08D8ED0F7 /* Pods_Admob_SwiftUITests.framework */; };
+		E083CB27E92C343F86879AD9 /* Pods_Admob_SwiftUI_Admob_SwiftUIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16D85FD28659611D172FDD1 /* Pods_Admob_SwiftUI_Admob_SwiftUIUITests.framework */; };
+		F981510E2B2A775700B5EC0C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F981510D2B2A775700B5EC0C /* GoogleService-Info.plist */; };
+		F98151112B2A7ACD00B5EC0C /* OpenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98151102B2A7ACD00B5EC0C /* OpenView.swift */; };
+		F981511D2B2A7ED000B5EC0C /* SwiftUIStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98151142B2A7ED000B5EC0C /* SwiftUIStartView.swift */; };
+		F981511E2B2A7ED000B5EC0C /* SwiftUIInterstitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98151152B2A7ED000B5EC0C /* SwiftUIInterstitialView.swift */; };
+		F981511F2B2A7ED000B5EC0C /* SwiftUIBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98151162B2A7ED000B5EC0C /* SwiftUIBannerView.swift */; };
+		F98151202B2A7ED000B5EC0C /* FirebaseNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98151172B2A7ED000B5EC0C /* FirebaseNetwork.swift */; };
+		F98151212B2A7ED000B5EC0C /* SwiftUINativeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98151182B2A7ED000B5EC0C /* SwiftUINativeView.swift */; };
+		F98151222B2A7ED000B5EC0C /* FirebaseAdmobConfigJson.geojson in Resources */ = {isa = PBXBuildFile; fileRef = F98151192B2A7ED000B5EC0C /* FirebaseAdmobConfigJson.geojson */; };
+		F98151232B2A7ED000B5EC0C /* SwiftUIFullScreenModefier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F981511A2B2A7ED000B5EC0C /* SwiftUIFullScreenModefier.swift */; };
+		F98151242B2A7ED000B5EC0C /* SwiftUINativeAdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F981511B2B2A7ED000B5EC0C /* SwiftUINativeAdView.xib */; };
+		F98151252B2A7ED000B5EC0C /* SwiftUIRewardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F981511C2B2A7ED000B5EC0C /* SwiftUIRewardView.swift */; };
+		F98151272B2A80B500B5EC0C /* InterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98151262B2A80B500B5EC0C /* InterView.swift */; };
+		F98151292B2A80C500B5EC0C /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98151282B2A80C500B5EC0C /* BannerView.swift */; };
+		F981512B2B2A80D100B5EC0C /* NativeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F981512A2B2A80D100B5EC0C /* NativeView.swift */; };
+		F981512D2B2A80E000B5EC0C /* RewardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F981512C2B2A80E000B5EC0C /* RewardView.swift */; };
+		F982CFD02B2A70F900734BA8 /* Admob_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F982CFCF2B2A70F900734BA8 /* Admob_SwiftUIApp.swift */; };
+		F982CFD22B2A70F900734BA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F982CFD12B2A70F900734BA8 /* ContentView.swift */; };
+		F982CFD42B2A70FB00734BA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F982CFD32B2A70FB00734BA8 /* Assets.xcassets */; };
+		F982CFD72B2A70FB00734BA8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F982CFD62B2A70FB00734BA8 /* Preview Assets.xcassets */; };
+		F982CFE12B2A70FB00734BA8 /* Admob_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F982CFE02B2A70FB00734BA8 /* Admob_SwiftUITests.swift */; };
+		F982CFEB2B2A70FB00734BA8 /* Admob_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F982CFEA2B2A70FB00734BA8 /* Admob_SwiftUIUITests.swift */; };
+		F982CFED2B2A70FB00734BA8 /* Admob_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F982CFEC2B2A70FB00734BA8 /* Admob_SwiftUIUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F982CFDD2B2A70FB00734BA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F982CFC42B2A70F900734BA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F982CFCB2B2A70F900734BA8;
+			remoteInfo = Admob_SwiftUI;
+		};
+		F982CFE72B2A70FB00734BA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F982CFC42B2A70F900734BA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F982CFCB2B2A70F900734BA8;
+			remoteInfo = Admob_SwiftUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E10158CCB0D0D3B97C10202 /* Pods-Admob_SwiftUI-Admob_SwiftUIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Admob_SwiftUI-Admob_SwiftUIUITests.debug.xcconfig"; path = "Target Support Files/Pods-Admob_SwiftUI-Admob_SwiftUIUITests/Pods-Admob_SwiftUI-Admob_SwiftUIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3654BD6AA8DBE2E08D8ED0F7 /* Pods_Admob_SwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Admob_SwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A6F8541509D7DDF7CE15E63 /* Pods-Admob_SwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Admob_SwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-Admob_SwiftUITests/Pods-Admob_SwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6439DF8D1E3F7709FF12ECDD /* Pods-Admob_SwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Admob_SwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-Admob_SwiftUI/Pods-Admob_SwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
+		A14A444DB75F7504CC9B6290 /* Pods-Admob_SwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Admob_SwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-Admob_SwiftUITests/Pods-Admob_SwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A20A0E275F41CCDAC713ED22 /* Pods_Admob_SwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Admob_SwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3F274809AF368653078EFAE /* Pods-Admob_SwiftUI-Admob_SwiftUIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Admob_SwiftUI-Admob_SwiftUIUITests.release.xcconfig"; path = "Target Support Files/Pods-Admob_SwiftUI-Admob_SwiftUIUITests/Pods-Admob_SwiftUI-Admob_SwiftUIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B16D85FD28659611D172FDD1 /* Pods_Admob_SwiftUI_Admob_SwiftUIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Admob_SwiftUI_Admob_SwiftUIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B69EB718376A8CBE953D64E7 /* Pods-Admob_SwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Admob_SwiftUI.release.xcconfig"; path = "Target Support Files/Pods-Admob_SwiftUI/Pods-Admob_SwiftUI.release.xcconfig"; sourceTree = "<group>"; };
+		F981510D2B2A775700B5EC0C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F981510F2B2A781200B5EC0C /* Admob-SwiftUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Admob-SwiftUI-Info.plist"; sourceTree = SOURCE_ROOT; };
+		F98151102B2A7ACD00B5EC0C /* OpenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenView.swift; sourceTree = "<group>"; };
+		F98151142B2A7ED000B5EC0C /* SwiftUIStartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIStartView.swift; sourceTree = "<group>"; };
+		F98151152B2A7ED000B5EC0C /* SwiftUIInterstitialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIInterstitialView.swift; sourceTree = "<group>"; };
+		F98151162B2A7ED000B5EC0C /* SwiftUIBannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIBannerView.swift; sourceTree = "<group>"; };
+		F98151172B2A7ED000B5EC0C /* FirebaseNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseNetwork.swift; sourceTree = "<group>"; };
+		F98151182B2A7ED000B5EC0C /* SwiftUINativeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUINativeView.swift; sourceTree = "<group>"; };
+		F98151192B2A7ED000B5EC0C /* FirebaseAdmobConfigJson.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FirebaseAdmobConfigJson.geojson; sourceTree = "<group>"; };
+		F981511A2B2A7ED000B5EC0C /* SwiftUIFullScreenModefier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIFullScreenModefier.swift; sourceTree = "<group>"; };
+		F981511B2B2A7ED000B5EC0C /* SwiftUINativeAdView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwiftUINativeAdView.xib; sourceTree = "<group>"; };
+		F981511C2B2A7ED000B5EC0C /* SwiftUIRewardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIRewardView.swift; sourceTree = "<group>"; };
+		F98151262B2A80B500B5EC0C /* InterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterView.swift; sourceTree = "<group>"; };
+		F98151282B2A80C500B5EC0C /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		F981512A2B2A80D100B5EC0C /* NativeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeView.swift; sourceTree = "<group>"; };
+		F981512C2B2A80E000B5EC0C /* RewardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardView.swift; sourceTree = "<group>"; };
+		F982CFCC2B2A70F900734BA8 /* Admob_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Admob_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F982CFCF2B2A70F900734BA8 /* Admob_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Admob_SwiftUIApp.swift; sourceTree = "<group>"; };
+		F982CFD12B2A70F900734BA8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F982CFD32B2A70FB00734BA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F982CFD62B2A70FB00734BA8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F982CFDC2B2A70FB00734BA8 /* Admob_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Admob_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F982CFE02B2A70FB00734BA8 /* Admob_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Admob_SwiftUITests.swift; sourceTree = "<group>"; };
+		F982CFE62B2A70FB00734BA8 /* Admob_SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Admob_SwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F982CFEA2B2A70FB00734BA8 /* Admob_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Admob_SwiftUIUITests.swift; sourceTree = "<group>"; };
+		F982CFEC2B2A70FB00734BA8 /* Admob_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Admob_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F982CFC92B2A70F900734BA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DD14BA21C6B2EE0F01C26CE /* Pods_Admob_SwiftUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F982CFD92B2A70FB00734BA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC6198D572273B69ECA2345 /* Pods_Admob_SwiftUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F982CFE32B2A70FB00734BA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E083CB27E92C343F86879AD9 /* Pods_Admob_SwiftUI_Admob_SwiftUIUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54EBC4280A1EB72CC26D38B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A20A0E275F41CCDAC713ED22 /* Pods_Admob_SwiftUI.framework */,
+				B16D85FD28659611D172FDD1 /* Pods_Admob_SwiftUI_Admob_SwiftUIUITests.framework */,
+				3654BD6AA8DBE2E08D8ED0F7 /* Pods_Admob_SwiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF4A542F4B64B420A6F46BC7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6439DF8D1E3F7709FF12ECDD /* Pods-Admob_SwiftUI.debug.xcconfig */,
+				B69EB718376A8CBE953D64E7 /* Pods-Admob_SwiftUI.release.xcconfig */,
+				0E10158CCB0D0D3B97C10202 /* Pods-Admob_SwiftUI-Admob_SwiftUIUITests.debug.xcconfig */,
+				A3F274809AF368653078EFAE /* Pods-Admob_SwiftUI-Admob_SwiftUIUITests.release.xcconfig */,
+				4A6F8541509D7DDF7CE15E63 /* Pods-Admob_SwiftUITests.debug.xcconfig */,
+				A14A444DB75F7504CC9B6290 /* Pods-Admob_SwiftUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F98151132B2A7ED000B5EC0C /* Admob */ = {
+			isa = PBXGroup;
+			children = (
+				F98151142B2A7ED000B5EC0C /* SwiftUIStartView.swift */,
+				F98151152B2A7ED000B5EC0C /* SwiftUIInterstitialView.swift */,
+				F98151162B2A7ED000B5EC0C /* SwiftUIBannerView.swift */,
+				F98151172B2A7ED000B5EC0C /* FirebaseNetwork.swift */,
+				F98151182B2A7ED000B5EC0C /* SwiftUINativeView.swift */,
+				F98151192B2A7ED000B5EC0C /* FirebaseAdmobConfigJson.geojson */,
+				F981511A2B2A7ED000B5EC0C /* SwiftUIFullScreenModefier.swift */,
+				F981511B2B2A7ED000B5EC0C /* SwiftUINativeAdView.xib */,
+				F981511C2B2A7ED000B5EC0C /* SwiftUIRewardView.swift */,
+			);
+			path = Admob;
+			sourceTree = "<group>";
+		};
+		F982CFC32B2A70F900734BA8 = {
+			isa = PBXGroup;
+			children = (
+				F981510D2B2A775700B5EC0C /* GoogleService-Info.plist */,
+				F982CFCE2B2A70F900734BA8 /* Admob_SwiftUI */,
+				F982CFDF2B2A70FB00734BA8 /* Admob_SwiftUITests */,
+				F982CFE92B2A70FB00734BA8 /* Admob_SwiftUIUITests */,
+				F982CFCD2B2A70F900734BA8 /* Products */,
+				BF4A542F4B64B420A6F46BC7 /* Pods */,
+				54EBC4280A1EB72CC26D38B4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F982CFCD2B2A70F900734BA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F982CFCC2B2A70F900734BA8 /* Admob_SwiftUI.app */,
+				F982CFDC2B2A70FB00734BA8 /* Admob_SwiftUITests.xctest */,
+				F982CFE62B2A70FB00734BA8 /* Admob_SwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F982CFCE2B2A70F900734BA8 /* Admob_SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				F98151132B2A7ED000B5EC0C /* Admob */,
+				F981510F2B2A781200B5EC0C /* Admob-SwiftUI-Info.plist */,
+				F982CFCF2B2A70F900734BA8 /* Admob_SwiftUIApp.swift */,
+				F982CFD12B2A70F900734BA8 /* ContentView.swift */,
+				F98151102B2A7ACD00B5EC0C /* OpenView.swift */,
+				F981512C2B2A80E000B5EC0C /* RewardView.swift */,
+				F98151262B2A80B500B5EC0C /* InterView.swift */,
+				F981512A2B2A80D100B5EC0C /* NativeView.swift */,
+				F98151282B2A80C500B5EC0C /* BannerView.swift */,
+				F982CFD32B2A70FB00734BA8 /* Assets.xcassets */,
+				F982CFD52B2A70FB00734BA8 /* Preview Content */,
+			);
+			path = Admob_SwiftUI;
+			sourceTree = "<group>";
+		};
+		F982CFD52B2A70FB00734BA8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F982CFD62B2A70FB00734BA8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F982CFDF2B2A70FB00734BA8 /* Admob_SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F982CFE02B2A70FB00734BA8 /* Admob_SwiftUITests.swift */,
+			);
+			path = Admob_SwiftUITests;
+			sourceTree = "<group>";
+		};
+		F982CFE92B2A70FB00734BA8 /* Admob_SwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F982CFEA2B2A70FB00734BA8 /* Admob_SwiftUIUITests.swift */,
+				F982CFEC2B2A70FB00734BA8 /* Admob_SwiftUIUITestsLaunchTests.swift */,
+			);
+			path = Admob_SwiftUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F982CFCB2B2A70F900734BA8 /* Admob_SwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F982CFF02B2A70FB00734BA8 /* Build configuration list for PBXNativeTarget "Admob_SwiftUI" */;
+			buildPhases = (
+				E566A351A22CAA96AF44F666 /* [CP] Check Pods Manifest.lock */,
+				F982CFC82B2A70F900734BA8 /* Sources */,
+				F982CFC92B2A70F900734BA8 /* Frameworks */,
+				F982CFCA2B2A70F900734BA8 /* Resources */,
+				CABDC7014F9F1798295FBF8F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Admob_SwiftUI;
+			productName = Admob_SwiftUI;
+			productReference = F982CFCC2B2A70F900734BA8 /* Admob_SwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F982CFDB2B2A70FB00734BA8 /* Admob_SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F982CFF32B2A70FB00734BA8 /* Build configuration list for PBXNativeTarget "Admob_SwiftUITests" */;
+			buildPhases = (
+				BBE2942FD0227B2A9460F55F /* [CP] Check Pods Manifest.lock */,
+				F982CFD82B2A70FB00734BA8 /* Sources */,
+				F982CFD92B2A70FB00734BA8 /* Frameworks */,
+				F982CFDA2B2A70FB00734BA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F982CFDE2B2A70FB00734BA8 /* PBXTargetDependency */,
+			);
+			name = Admob_SwiftUITests;
+			productName = Admob_SwiftUITests;
+			productReference = F982CFDC2B2A70FB00734BA8 /* Admob_SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F982CFE52B2A70FB00734BA8 /* Admob_SwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F982CFF62B2A70FB00734BA8 /* Build configuration list for PBXNativeTarget "Admob_SwiftUIUITests" */;
+			buildPhases = (
+				37049128A5504C24166EE4B5 /* [CP] Check Pods Manifest.lock */,
+				F982CFE22B2A70FB00734BA8 /* Sources */,
+				F982CFE32B2A70FB00734BA8 /* Frameworks */,
+				F982CFE42B2A70FB00734BA8 /* Resources */,
+				E320E7ADB638563A167D39B6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F982CFE82B2A70FB00734BA8 /* PBXTargetDependency */,
+			);
+			name = Admob_SwiftUIUITests;
+			productName = Admob_SwiftUIUITests;
+			productReference = F982CFE62B2A70FB00734BA8 /* Admob_SwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F982CFC42B2A70F900734BA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F982CFCB2B2A70F900734BA8 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					F982CFDB2B2A70FB00734BA8 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = F982CFCB2B2A70F900734BA8;
+					};
+					F982CFE52B2A70FB00734BA8 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = F982CFCB2B2A70F900734BA8;
+					};
+				};
+			};
+			buildConfigurationList = F982CFC72B2A70F900734BA8 /* Build configuration list for PBXProject "Admob_SwiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F982CFC32B2A70F900734BA8;
+			productRefGroup = F982CFCD2B2A70F900734BA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F982CFCB2B2A70F900734BA8 /* Admob_SwiftUI */,
+				F982CFDB2B2A70FB00734BA8 /* Admob_SwiftUITests */,
+				F982CFE52B2A70FB00734BA8 /* Admob_SwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F982CFCA2B2A70F900734BA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F982CFD72B2A70FB00734BA8 /* Preview Assets.xcassets in Resources */,
+				F982CFD42B2A70FB00734BA8 /* Assets.xcassets in Resources */,
+				F98151222B2A7ED000B5EC0C /* FirebaseAdmobConfigJson.geojson in Resources */,
+				F981510E2B2A775700B5EC0C /* GoogleService-Info.plist in Resources */,
+				F98151242B2A7ED000B5EC0C /* SwiftUINativeAdView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F982CFDA2B2A70FB00734BA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F982CFE42B2A70FB00734BA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37049128A5504C24166EE4B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Admob_SwiftUI-Admob_SwiftUIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBE2942FD0227B2A9460F55F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Admob_SwiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CABDC7014F9F1798295FBF8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Admob_SwiftUI/Pods-Admob_SwiftUI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Admob_SwiftUI/Pods-Admob_SwiftUI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Admob_SwiftUI/Pods-Admob_SwiftUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E320E7ADB638563A167D39B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Admob_SwiftUI-Admob_SwiftUIUITests/Pods-Admob_SwiftUI-Admob_SwiftUIUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Admob_SwiftUI-Admob_SwiftUIUITests/Pods-Admob_SwiftUI-Admob_SwiftUIUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Admob_SwiftUI-Admob_SwiftUIUITests/Pods-Admob_SwiftUI-Admob_SwiftUIUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E566A351A22CAA96AF44F666 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Admob_SwiftUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F982CFC82B2A70F900734BA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F981512B2B2A80D100B5EC0C /* NativeView.swift in Sources */,
+				F982CFD22B2A70F900734BA8 /* ContentView.swift in Sources */,
+				F981511D2B2A7ED000B5EC0C /* SwiftUIStartView.swift in Sources */,
+				F98151202B2A7ED000B5EC0C /* FirebaseNetwork.swift in Sources */,
+				F98151232B2A7ED000B5EC0C /* SwiftUIFullScreenModefier.swift in Sources */,
+				F981511E2B2A7ED000B5EC0C /* SwiftUIInterstitialView.swift in Sources */,
+				F98151252B2A7ED000B5EC0C /* SwiftUIRewardView.swift in Sources */,
+				F98151272B2A80B500B5EC0C /* InterView.swift in Sources */,
+				F98151112B2A7ACD00B5EC0C /* OpenView.swift in Sources */,
+				F981512D2B2A80E000B5EC0C /* RewardView.swift in Sources */,
+				F98151292B2A80C500B5EC0C /* BannerView.swift in Sources */,
+				F981511F2B2A7ED000B5EC0C /* SwiftUIBannerView.swift in Sources */,
+				F982CFD02B2A70F900734BA8 /* Admob_SwiftUIApp.swift in Sources */,
+				F98151212B2A7ED000B5EC0C /* SwiftUINativeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F982CFD82B2A70FB00734BA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F982CFE12B2A70FB00734BA8 /* Admob_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F982CFE22B2A70FB00734BA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F982CFED2B2A70FB00734BA8 /* Admob_SwiftUIUITestsLaunchTests.swift in Sources */,
+				F982CFEB2B2A70FB00734BA8 /* Admob_SwiftUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F982CFDE2B2A70FB00734BA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F982CFCB2B2A70F900734BA8 /* Admob_SwiftUI */;
+			targetProxy = F982CFDD2B2A70FB00734BA8 /* PBXContainerItemProxy */;
+		};
+		F982CFE82B2A70FB00734BA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F982CFCB2B2A70F900734BA8 /* Admob_SwiftUI */;
+			targetProxy = F982CFE72B2A70FB00734BA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F982CFEE2B2A70FB00734BA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F982CFEF2B2A70FB00734BA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F982CFF12B2A70FB00734BA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6439DF8D1E3F7709FF12ECDD /* Pods-Admob_SwiftUI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Admob_SwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Admob-SwiftUI-Info.plist";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Please be assured that turning on the permission will not obtain your private information on other sites. This permission is only used to identify the device, third-party advertising, and ensure service security and prompt browsing experience.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.admob.swiftui;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F982CFF22B2A70FB00734BA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B69EB718376A8CBE953D64E7 /* Pods-Admob_SwiftUI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Admob_SwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Admob-SwiftUI-Info.plist";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Please be assured that turning on the permission will not obtain your private information on other sites. This permission is only used to identify the device, third-party advertising, and ensure service security and prompt browsing experience.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.admob.swiftui;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F982CFF42B2A70FB00734BA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A6F8541509D7DDF7CE15E63 /* Pods-Admob_SwiftUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.admob.swiftui.Admob-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Admob_SwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Admob_SwiftUI";
+			};
+			name = Debug;
+		};
+		F982CFF52B2A70FB00734BA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A14A444DB75F7504CC9B6290 /* Pods-Admob_SwiftUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.admob.swiftui.Admob-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Admob_SwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Admob_SwiftUI";
+			};
+			name = Release;
+		};
+		F982CFF72B2A70FB00734BA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E10158CCB0D0D3B97C10202 /* Pods-Admob_SwiftUI-Admob_SwiftUIUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.admob.swiftui.Admob-SwiftUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Admob_SwiftUI;
+			};
+			name = Debug;
+		};
+		F982CFF82B2A70FB00734BA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3F274809AF368653078EFAE /* Pods-Admob_SwiftUI-Admob_SwiftUIUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.admob.swiftui.Admob-SwiftUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Admob_SwiftUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F982CFC72B2A70F900734BA8 /* Build configuration list for PBXProject "Admob_SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F982CFEE2B2A70FB00734BA8 /* Debug */,
+				F982CFEF2B2A70FB00734BA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F982CFF02B2A70FB00734BA8 /* Build configuration list for PBXNativeTarget "Admob_SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F982CFF12B2A70FB00734BA8 /* Debug */,
+				F982CFF22B2A70FB00734BA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F982CFF32B2A70FB00734BA8 /* Build configuration list for PBXNativeTarget "Admob_SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F982CFF42B2A70FB00734BA8 /* Debug */,
+				F982CFF52B2A70FB00734BA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F982CFF62B2A70FB00734BA8 /* Build configuration list for PBXNativeTarget "Admob_SwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F982CFF72B2A70FB00734BA8 /* Debug */,
+				F982CFF82B2A70FB00734BA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F982CFC42B2A70F900734BA8 /* Project object */;
+}
