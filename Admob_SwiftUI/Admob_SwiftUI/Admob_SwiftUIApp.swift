@@ -107,7 +107,7 @@ struct AdLaunchPage: View {
                 Image(systemName: "figure.walk")
                     .resizable()
                     .frame(width: 130, height: 130)
-                Text("APP NAME")
+                Text("Google Admob For SwiftUI")
                 Spacer()
                 ZStack(alignment: .center) {
                     HStack(alignment: .center) {
