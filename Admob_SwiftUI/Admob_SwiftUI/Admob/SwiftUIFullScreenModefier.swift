@@ -29,7 +29,7 @@ struct FullScreenModifier<Parent: View>: View {
                 EmptyView()
                     .edgesIgnoringSafeArea(.all)
                 if adType == .rewarded {
-                    SwiftUIRewardView(objectSize: .zero, admobModel: adModel)
+                    SwiftUIRewardView(objectSize: .zero, admobModel: adModel, showedBlock: showedBlock)
                 } else if adType == .interstitial {
                     SwiftUIInterstitialView(objectSize: .zero, admobModel: adModel, showedBlock: showedBlock)
                 } else if adType == .screen {
